@@ -12,3 +12,7 @@ markup:
         codeFences: true
         noClasses: true
         style: friendly
+
+caches:
+    images:
+        dir: :cacheDir/images
