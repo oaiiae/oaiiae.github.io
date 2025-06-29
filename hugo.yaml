@@ -2,6 +2,15 @@ baseURL: https://oaiiae.net
 languageCode: en-us
 title: oaiiae.net
 
+menus:
+    main:
+        - name: Home
+          pageRef: /
+          weight: 10
+        - name: About
+          pageRef: /about
+          weight: 20
+
 module:
     hugoVersion:
         extended: false
