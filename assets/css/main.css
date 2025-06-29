@@ -1,0 +1,133 @@
+:root {
+    --hsl-light: 55, 8%, 97%;
+    --hsl-dark: 235, 97%, 8%;
+
+    --color-fg: hsl(var(--hsl-dark));
+    --color-bg: hsl(var(--hsl-light));
+    --color-bga: hsla(var(--hsl-light), 0.35);
+}
+/*
+@media (prefers-color-scheme: dark) {
+    :root {
+        --color-fg: hsl(var(--hsl-light));
+        --color-bg: hsl(var(--hsl-dark));
+        --color-bga: hsla(var(--hsl-dark), 0.55);
+    }
+} */
+
+@font-face {
+    font-family: "SUSE";
+    src: url("/fonts/SUSE[wght].woff2");
+}
+
+@font-face {
+    font-family: "Ovo";
+    src: url("/fonts/Ovo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Spleen";
+    src: url("/fonts/spleen-32x64.otf");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: SUSE, sans-serif;
+    line-height: 1.3;
+    color: var(--color-fg);
+    background-color: var(--color-bg);
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+    font-family: Ovo, serif;
+}
+
+code {
+    font-family: Spleen, monospace;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    color: inherit;
+    opacity: 0.1;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--color-bga);
+    backdrop-filter: blur(0.5rem);
+    h1 {
+        margin: 0;
+        font-size: 1.75rem;
+        font-weight: 900;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 0.25rem 0.5rem;
+        color: var(--color-bg);
+        background-color: var(--color-fg);
+        border-radius: 0.25rem;
+        &:nth-child(n + 2) {
+            margin-left: 1rem;
+        }
+        &:is(:hover, :focus, :active) {
+            filter: drop-shadow(0 0 4px var(--color-fg));
+            transition: filter 0.1s;
+        }
+    }
+}
+
+footer {
+    opacity: 0.3;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 0.5;
+    padding-block: 1rem 2rem;
+    a {
+        text-decoration: underline;
+    }
+    position: sticky;
+    top: 100vh;
+}
+
+main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    a:is(:hover, :focus, :active) {
+        text-decoration: underline;
+    }
+    p {
+        text-align: justify;
+    }
+    hr:first-child {
+        display: none;
+    }
+    .highlight > pre {
+        padding: 1rem;
+        border-radius: 0.25rem;
+        overflow-x: scroll;
+    }
+}

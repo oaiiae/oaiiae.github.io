@@ -1,0 +1,7 @@
+{{ define "main" }}
+    <div style="margin-top: 3em;">
+        {{ $pp := (resources.Get "images/profile-picture.png").Resize "256x256" }}
+        <img src="{{ $pp.RelPermalink }}" width="128" height="128" />
+        {{ .Content }}
+    </div>
+{{ end }}
