@@ -1,0 +1,14 @@
+baseURL: https://oaiiae.net
+languageCode: en-us
+title: oaiiae.net
+
+module:
+    hugoVersion:
+        extended: false
+        min: 0.116.0
+
+markup:
+    highlight:
+        codeFences: true
+        noClasses: true
+        style: friendly
