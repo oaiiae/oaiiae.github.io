@@ -1,19 +1,11 @@
 :root {
-    --hsl-light: 55, 8%, 97%;
-    --hsl-dark: 235, 97%, 8%;
+    --hsl-light: 65, 8%, 92%;
+    --hsl-dark: 245, 92%, 8%;
 
     --color-fg: hsl(var(--hsl-dark));
     --color-bg: hsl(var(--hsl-light));
     --color-bga: hsla(var(--hsl-light), 0.35);
 }
-/*
-@media (prefers-color-scheme: dark) {
-    :root {
-        --color-fg: hsl(var(--hsl-light));
-        --color-bg: hsl(var(--hsl-dark));
-        --color-bga: hsla(var(--hsl-dark), 0.55);
-    }
-} */
 
 @font-face {
     font-family: "SUSE";
