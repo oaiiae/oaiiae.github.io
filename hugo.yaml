@@ -7,8 +7,8 @@ menus:
         - name: Home
           pageRef: /
           weight: 10
-        - name: About
-          pageRef: /about
+        - name: Resume
+          pageRef: /resume
           weight: 20
 
 module:

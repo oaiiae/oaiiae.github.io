@@ -1,7 +1,7 @@
 ---
 date: '2025-06-29T17:25:54Z'
 draft: false
-title: 'About me'
+title: 'Resume'
 ---
 
 ## Skills
