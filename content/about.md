@@ -6,16 +6,19 @@ title: 'About me'
 
 ## Skills
 
-- **Languages**: Golang, C/C++, VHDL, GNU Make
-- **Development good practices**: Versioning (Git), Design Patterns, SOLID, Unit testing, Code review, Misra, JPL, Linux coding standards
-- **Containerization**: Docker, Podman, Nomad, Kubernetes
+- **Languages**: Golang, C/C++, VHDL and more
+- **Tools**: Git, FFmpeg, Wireshark, GNU Make
+- **Development good practices**: Design Patterns, SOLID, Unit testing, Linting, Code review, Misra, JPL, Linux kernel coding standards
+- **Containerization**: Docker, Podman, Nomad, Kubernetes, Dev Containers
 - **Virtualization**: Proxmox, QEMU, GPU Passthrough
-- **Databases**: PostgreSQL, MariaDB, MongoDB, Redis
+- **Databases**: PostgreSQL, MariaDB, MongoDB, Redis, Timescale
 - **Observability**: Prometheus, VictoriaMetrics, Grafana, Loki
 - **CI / CD**: GitLab CI, GitHub Actions
 - **Project Management**: Domain Driven Development, EventStorming
 
-## Professional experience
+---
+
+## Experience
 
 ### At RadioKing (NRJ Group) as Back-End Engineer
 
@@ -23,7 +26,7 @@ title: 'About me'
 
 - RESTful API, unit tests and algorithm development in Go
 - Architecture from scratch of an audio streaming service
-- Optimization of CI / CD (processing time, artifacts size, … )
+- Optimization of CI pipelines (processing time, artifacts size, ...)
 - Introduction & enforcing of good practices and design patterns
 - Documentation redaction
 
@@ -40,12 +43,14 @@ title: 'About me'
 *April 2016 - August 2019 • Sainghin-en-Mélantois, France*
 
 - Firmware development for System-on-Chip in VHDL and C
-- Improved overall firmware performance of a custom FPGA-based signal processing device
+- Improved overall performance of an FPGA-based signal processing device
 - Integration developments (libraries, language bindings, GUIs, ...)
+
+---
 
 ## Training
 
-### Polytech’Lille
+### Polytech’Lille engineering College
 
 *September 2011 - September 2016 • Villeneuve D’Ascq, France*
 
@@ -53,16 +58,27 @@ title: 'About me'
 - Systems and Network administration project
 - Connected TShirt project with integrated fall detection system (C, ZigBee)
 
-### Lycée Louis Pasteur
+### University of Bologna
+
+*May 2015 - August 2015 • Bologna, Italy*
+
+- Study & modeling of GaN based power amplifiers
+- Development of an automated characterization bench
+
+### Louis Pasteur high school
 
 *September 2008 - June 2011 • Lille, France*
 
-Baccalauréat S
+- Baccalauréat S
 
-## Languages spoken
+---
 
-- English (professional proficiency, TOEIC 2015 score: 910)
+## Languages
+
+- English (professional proficiency, 2015 TOEIC score: 910)
 - French (native)
+
+---
 
 ## Hobbies
 
