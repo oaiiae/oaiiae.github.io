@@ -13,9 +13,6 @@ menus:
         - name: Tags
           pageRef: /tags
           weight: 30
-        - name: Resume
-          pageRef: /resume
-          weight: 40
 
 module:
     hugoVersion:
