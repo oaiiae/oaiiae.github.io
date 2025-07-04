@@ -4,10 +4,14 @@ draft: false
 title: 'Resume'
 ---
 
+I'm a software engineer from Lille, France with a decade of experience building robust and scalable systems from the ground up. My career spans from low-level system programming to modern microservices architectures, with a consistent focus on crafting elegant solutions performing at scale.
+
+---
+
 ## Skills
 
 - **Languages**: Golang, C/C++, VHDL and more
-- **Tools**: Git, FFmpeg, Wireshark, GNU Make
+- **Tools**: Git, FFmpeg, Tcpdump, GNU Make
 - **Development good practices**: Design Patterns, SOLID, Unit testing, Linting, Code review, Misra, JPL, Linux kernel coding standards
 - **Containerization**: Docker, Podman, Nomad, Kubernetes, Dev Containers
 - **Virtualization**: Proxmox, QEMU, GPU Passthrough
@@ -20,31 +24,36 @@ title: 'Resume'
 
 ## Experience
 
-### At RadioKing (NRJ Group) as Back-End Engineer
+### RadioKing (NRJ Group) • Back-End Engineer
 
 *Since May 2022 • Remote, France*
 
-- RESTful API, unit tests and algorithm development in Go
-- Architecture from scratch of an audio streaming service
-- Optimization of CI pipelines (processing time, artifacts size, ...)
-- Introduction & enforcing of good practices and design patterns
-- Documentation redaction
+- Developed and maintained REST APIs in Go
+- Implemented efficient audio processors in Go using FFmpeg’s libraries & Cgo
+- Architectured an Icecast based CDN serving hundreds of radios to 100k+ concurrent listeners
+- Made audience tracking more reliable providing accurate insights to advertisers
+- Designed a custom ingestion network enhancing observability, security & reliability
+- Promoted usage of DDD and EventStorming to improve collaboration and progression on projects
+- Mentored the team on various tools (Git, Docker, DevContainers) and development practices
+- Reduced build time by 20% & artifacts size by 50% on our GitLab CI
 
-### At Stormshield as System Engineer
+### Stormshield • System Engineer
 
 *September 2019 - April 2022 • Villeneuve d’Ascq, France*
 
-- Network & Security applications development
-- Documentation writing
-- Debugging, project management, ...
+- Supported and developed network & security C applications in virtualized environments
+- Developed a SD-WAN routing daemon in C++
+- Debugged FreeBSD kernel patches
+- Lead stand-ups and aligned team on work priorities
 
-### At MC2-Technologies as Software Engineer
+### MC2-Technologies • Software Engineer
 
 *April 2016 - August 2019 • Sainghin-en-Mélantois, France*
 
-- Firmware development for System-on-Chip in VHDL and C
-- Improved overall performance of an FPGA-based signal processing device
-- Integration developments (libraries, language bindings, GUIs, ...)
+- Developed firmware for Zynq7000 SoC in VHDL and C
+- Improved overall firmware performance of a custom FPGA-based signal processing device
+- Wrote development libraries simplifying integration of our devices for our users
+- Developed easy-to-use UIs to drive our appliances
 
 ---
 
@@ -54,29 +63,22 @@ title: 'Resume'
 
 *September 2011 - September 2016 • Villeneuve D’Ascq, France*
 
-- Development of a self-hosted mailing service on a Raspberry Pi
-- Systems and Network administration project
-- Connected TShirt project with integrated fall detection system (C, ZigBee)
+- Developed a self-hosted mailing service on a Raspberry Pi
+- Augmented a t-shirt with a fall detection system to send alerts over Internet
+- Experienced administration of Cisco routers
 
 ### University of Bologna
 
 *May 2015 - August 2015 • Bologna, Italy*
 
-- Study & modeling of GaN based power amplifiers
-- Development of an automated characterization bench
+- Studied and modeled GaN-based power amplifiers
+- Developed an automated characterization bench
 
 ### Louis Pasteur high school
 
 *September 2008 - June 2011 • Lille, France*
 
 - Baccalauréat S
-
----
-
-## Languages
-
-- English (professional proficiency, 2015 TOEIC score: 910)
-- French (native)
 
 ---
 
