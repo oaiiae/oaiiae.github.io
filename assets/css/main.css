@@ -1,10 +1,6 @@
 :root {
-    --hsl-light: 65, 8%, 92%;
-    --hsl-dark: 245, 92%, 8%;
-
-    --color-fg: hsl(var(--hsl-dark));
-    --color-bg: hsl(var(--hsl-light));
-    --color-bga: hsla(var(--hsl-light), 0.35);
+    --color-bg: hsl(65, 8%, 92%);
+    --color-fg: hsl(245, 92%, 8%);
 }
 
 @font-face {
@@ -46,23 +42,17 @@ a {
 }
 
 hr {
-    margin: 0;
     color: inherit;
     opacity: 0.1;
 }
 
 header {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    max-width: 1080px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 0.5rem 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--color-bga);
-    backdrop-filter: blur(0.5rem);
     h1 {
         margin: 0;
         font-size: 1.75rem;
@@ -83,7 +73,7 @@ header {
         border: 0.125rem solid var(--color-fg);
         border-radius: 0.25rem;
         &:nth-child(n + 2) {
-            margin-left: 0.5rem;
+            margin-left: 0.75rem;
         }
         &:is(:hover, :focus, :active) {
             color: var(--color-fg);
@@ -106,7 +96,7 @@ footer {
 }
 
 main {
-    max-width: 720px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
     a:is(:hover, :focus, :active) {
@@ -114,9 +104,6 @@ main {
     }
     p {
         text-align: justify;
-    }
-    hr:first-child {
-        display: none;
     }
     .highlight > pre {
         padding: 1rem;
