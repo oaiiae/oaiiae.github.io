@@ -10,7 +10,7 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 ## Skills
 
-- **Languages**: Golang, C/C++, VHDL and more
+- **Languages**: Golang, C/C++, VHDL
 - **Tools**: Git, FFmpeg, Tcpdump, GNU Make
 - **Development good practices**: Design Patterns, SOLID, Unit testing, Linting, Code review, Misra, JPL, Linux kernel coding standards
 - **Containerization**: Docker, Podman, Nomad, Kubernetes, Dev Containers
@@ -28,13 +28,13 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 *Since May 2022 • Remote, France*
 
-- Developed and maintained REST APIs in Go
+- Developed and maintained REST APIs in Go running in our self-hosted Kubernetes cluster
 - Implemented efficient audio processors in Go using FFmpeg’s libraries & Cgo
 - Architectured an Icecast based CDN serving hundreds of radios to 100k+ concurrent listeners
 - Made audience tracking more reliable providing accurate insights to advertisers
 - Designed a custom ingestion network enhancing observability, security & reliability
 - Promoted usage of DDD and EventStorming to improve collaboration and progression on projects
-- Mentored the team on various tools (Git, Docker, DevContainers) and development practices
+- Mentored the team on various tools (Git, Docker, DevContainers) and development best practices
 - Reduced build time by 20% & artifacts size by 50% on our GitLab CI
 
 ### Stormshield • System Engineer
@@ -84,4 +84,4 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 ## Hobbies
 
-Bouldering, Padel, coffee brewing, reading, knife sharpening, Japanese, Korean, photography, ...
+Bouldering, padel, coffee brewing, reading, knife sharpening, photography
