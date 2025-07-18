@@ -10,15 +10,11 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 ## Skills
 
-- **Languages**: Golang, C/C++, VHDL
-- **Tools**: Git, FFmpeg, Tcpdump, GNU Make
-- **Development good practices**: Design Patterns, SOLID, Unit testing, Linting, Code review, Misra, JPL, Linux kernel coding standards
+- **Programming**: Golang, C/C++, VHDL, Git, GNU Make, Dockerfile, Design Patterns, Testing, Linting
 - **Containerization**: Docker, Podman, Nomad, Kubernetes, Dev Containers
-- **Virtualization**: Proxmox, QEMU, GPU Passthrough
-- **Databases**: PostgreSQL, MariaDB, MongoDB, Redis, Timescale
 - **Observability**: Prometheus, VictoriaMetrics, Grafana, Loki
+- **Databases**: PostgreSQL, MariaDB, MongoDB, Redis, Timescale
 - **CI / CD**: GitLab CI, GitHub Actions
-- **Project Management**: Domain Driven Development, EventStorming
 
 ---
 
@@ -28,14 +24,15 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 *Since May 2022 • Remote, France*
 
-- Developed and maintained REST APIs in Go running in our self-hosted Kubernetes cluster
+- Developed and maintained Golang REST APIs running in our self-hosted Kubernetes cluster
 - Implemented efficient audio processors in Go using FFmpeg’s libraries & Cgo
-- Architectured an Icecast based CDN serving hundreds of radios to 100k+ concurrent listeners
-- Made audience tracking more reliable providing accurate insights to advertisers
-- Designed a custom ingestion network enhancing observability, security & reliability
-- Promoted usage of DDD and EventStorming to improve collaboration and progression on projects
+- Designed a custom Icecast-compatible ingestion network enhancing observability of critical events as well as security & reliability of the operation
+- Architectured an Icecast-based CDN serving hundreds of radios to 100k+ concurrent listeners
+- Made audience tracking more reliable by processing asynchronously sessions metadata with FluentBit, providing a resilient & accurate source of insights to advertisers
+- Provided relevant Prometheus metrics and Grafana dashboards, allowing our team to efficiently investigate issues in our stack and locate root causes
+- Improved collaboration & progression on projects by being a source of proposals and promoting usage of recognized software design workflows (Domain-Driven Design, EventStorming)
 - Mentored the team on various tools (Git, Docker, DevContainers) and development best practices
-- Reduced build time by 20% & artifacts size by 50% on our GitLab CI
+- Reduced build time by 20% and artifacts size by 50% on our GitLab CI
 
 ### Stormshield • System Engineer
 
@@ -50,7 +47,7 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 *April 2016 - August 2019 • Sainghin-en-Mélantois, France*
 
-- Developed firmware for Zynq7000 SoC in VHDL and C
+- Developed firmware for Zynq7000 SoC in VHDL & C
 - Improved overall firmware performance of a custom FPGA-based signal processing device
 - Wrote development libraries simplifying integration of our devices for our users
 - Developed easy-to-use UIs to drive our appliances
