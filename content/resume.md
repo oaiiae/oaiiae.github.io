@@ -4,7 +4,7 @@ draft: false
 title: 'Resume'
 ---
 
-I'm a software engineer from Lille, France with a decade of experience building robust and scalable systems from the ground up. My career spans from low-level system programming to modern microservices architectures, with a consistent focus on crafting elegant solutions performing at scale.
+I have a decade of distilling software problems to their essence and offering simple & efficient solutions.
 
 ---
 
@@ -20,19 +20,19 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 ## Experience
 
-### RadioKing (NRJ Group) • Back-End Engineer
+### RadioKing (NRJ Group) • Senior Back-End Engineer
 
 *Since May 2022 • Remote, France*
 
-- Developed and maintained Golang REST APIs running in our self-hosted Kubernetes cluster
+- Developed and maintained Golang REST APIs running in a self-hosted Kubernetes cluster
 - Implemented efficient audio processors in Go using FFmpeg’s libraries & Cgo
-- Designed a custom Icecast-compatible ingestion network enhancing observability of critical events as well as security & reliability of the operation
-- Architectured an Icecast-based CDN serving hundreds of radios to 100k+ concurrent listeners
+- Designed a custom Icecast-compatible ingestion network enhancing observability of critical events as well as security & reliability
+- Architectured an Icecast-based CDN serving hundreds of webradios to 100k+ concurrent listeners
 - Made audience tracking more reliable by processing asynchronously sessions metadata with FluentBit, providing a resilient & accurate source of insights to advertisers
-- Provided relevant Prometheus metrics and Grafana dashboards, allowing our team to efficiently investigate issues in our stack and locate root causes
+- Provided relevant Prometheus metrics and Grafana dashboards, allowing our team to efficiently investigate issues in the stack and locate root causes
 - Improved collaboration & progression on projects by being a source of proposals and promoting usage of recognized software design workflows (Domain-Driven Design, EventStorming)
 - Mentored the team on various tools (Git, Docker, DevContainers) and development best practices
-- Reduced build time by 20% and artifacts size by 50% on our GitLab CI
+- Reduced build time by 20% and artifacts size by 50% on GitLab CI
 
 ### Stormshield • System Engineer
 
@@ -49,20 +49,19 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 - Developed firmware for Zynq7000 SoC in VHDL & C
 - Improved overall firmware performance of a custom FPGA-based signal processing device
-- Wrote development libraries simplifying integration of our devices for our users
-- Developed easy-to-use UIs to drive our appliances
+- Wrote development libraries simplifying integration of devices for users
+- Developed easy-to-use UIs to drive appliances
 
 ---
 
 ## Training
 
-### Polytech’Lille engineering College
+### Polytech’Lille engineering school
 
 *September 2011 - September 2016 • Villeneuve D’Ascq, France*
 
 - Developed a self-hosted mailing service on a Raspberry Pi
 - Augmented a t-shirt with a fall detection system to send alerts over Internet
-- Experienced administration of Cisco routers
 
 ### University of Bologna
 
@@ -81,4 +80,4 @@ I'm a software engineer from Lille, France with a decade of experience building 
 
 ## Hobbies
 
-Bouldering, padel, coffee brewing, reading, knife sharpening, photography
+Bouldering, padel, coffee brewing, knife sharpening, photography
