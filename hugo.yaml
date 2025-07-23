@@ -1,6 +1,6 @@
-baseURL: https://rlibaert.dev
+baseURL: https://blog.rlibaert.dev
 languageCode: en-us
-title: rlibaert.dev
+title: rlibaert
 
 menus:
     main:
