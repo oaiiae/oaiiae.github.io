@@ -1,6 +1,6 @@
 :root {
-    --color-bg: hsl(65, 10%, 90%);
-    --color-fg: hsl(245, 90%, 10%);
+    --color-bg: hsl(65, 13%, 89%);
+    --color-fg: hsl(245, 89%, 13%);
 }
 
 @font-face {
@@ -56,8 +56,9 @@ header {
     justify-content: space-between;
     h1 {
         margin: 0;
+        font-family: SUSE, sans-serif;
         font-size: 1.75rem;
-        font-weight: 900;
+        font-weight: 600;
     }
     ul {
         list-style-type: none;
