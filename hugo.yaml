@@ -23,7 +23,7 @@ markup:
     highlight:
         codeFences: true
         noClasses: true
-        style: nordic
+        style: gruvbox
 
 caches:
     images:
