@@ -1,6 +1,6 @@
 :root {
-    --color-bg: hsl(65, 13%, 89%);
-    --color-fg: hsl(245, 89%, 13%);
+    --color-bg: hsl(45, 34%, 92%);
+    --color-fg: hsl(45, 89%, 8%);
 }
 
 @font-face {
@@ -34,7 +34,6 @@ body {
 
 code {
     font-family: Spleen, monospace;
-    filter: contrast(0.8) brightness(1.2) saturate(1.2);
 }
 
 a {
