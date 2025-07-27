@@ -4,8 +4,8 @@ title: rlibaert
 
 menus:
     main:
-        - name: Home
-          pageRef: /
+        - name: Resume
+          pageRef: /resume
           weight: 10
         - name: Posts
           pageRef: /posts
