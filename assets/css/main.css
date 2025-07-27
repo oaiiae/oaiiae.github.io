@@ -53,12 +53,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h1 {
-        margin: 0;
-        font-family: SUSE, sans-serif;
-        font-size: 1.75rem;
-        font-weight: 600;
-    }
     ul {
         list-style-type: none;
         margin: 0.5rem 0;
@@ -110,5 +104,16 @@ main {
         padding: 1rem;
         border-radius: 0.25rem;
         overflow-x: scroll;
+    }
+}
+
+#home {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0px 0px 1.5px var(--color-fg));
+    &:hover {
+        scale: 1.05;
+        filter: drop-shadow(0px 0px 2px var(--color-fg));
+        transition: 200ms;
     }
 }
