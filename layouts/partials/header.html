@@ -1,2 +1,5 @@
-<a id="home" href="/">{{ (resources.Get "images/logo.svg").Content | safeHTML }}</a>
+<a id="home" href="/">
+    {{ (resources.Get "images/logo.svg").Content | safeHTML }}
+    <h1>{{ site.Title }}</h1>
+</a>
 {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
