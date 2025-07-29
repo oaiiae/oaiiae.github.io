@@ -1,6 +1,6 @@
 :root {
-    --color-bg: hsl(45, 34%, 92%);
-    --color-fg: hsl(45, 89%, 8%);
+    --color-bg: oklch(0.99 0.02 80);
+    --color-fg: oklch(0.25 0.08 80);
 }
 
 @font-face {
