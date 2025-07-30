@@ -6,8 +6,6 @@ title: 'Resume'
 
 I have a decade of distilling software problems to their essence and offering simple & efficient solutions.
 
----
-
 ## Skills
 
 - **Programming**: Golang, C/C++, VHDL, Git, GNU Make, Dockerfile, Design Patterns, Testing, Linting
@@ -16,11 +14,9 @@ I have a decade of distilling software problems to their essence and offering si
 - **Databases**: PostgreSQL, MariaDB, MongoDB, Redis, Timescale
 - **CI / CD**: GitLab CI, GitHub Actions
 
----
-
 ## Experience
 
-### RadioKing (NRJ Group) • Senior Back-End Engineer
+### Senior Back-End Engineer • RadioKing (NRJ Group)
 
 *Since May 2022 • Remote, France*
 
@@ -34,7 +30,7 @@ I have a decade of distilling software problems to their essence and offering si
 - Mentored the team on various tools (Git, Docker, DevContainers) and development best practices
 - Reduced build time by 20% and artifacts size by 50% on GitLab CI
 
-### Stormshield • System Engineer
+### System Engineer • Stormshield
 
 *September 2019 - April 2022 • Villeneuve d’Ascq, France*
 
@@ -43,7 +39,7 @@ I have a decade of distilling software problems to their essence and offering si
 - Debugged FreeBSD kernel patches
 - Lead stand-ups and aligned team on work priorities
 
-### MC2-Technologies • Software Engineer
+### Software Engineer • MC2-Technologies
 
 *April 2016 - August 2019 • Sainghin-en-Mélantois, France*
 
@@ -51,8 +47,6 @@ I have a decade of distilling software problems to their essence and offering si
 - Improved overall firmware performance of a custom FPGA-based signal processing device
 - Wrote development libraries simplifying integration of devices for users
 - Developed easy-to-use UIs to drive appliances
-
----
 
 ## Training
 
@@ -75,8 +69,6 @@ I have a decade of distilling software problems to their essence and offering si
 *September 2008 - June 2011 • Lille, France*
 
 - Baccalauréat S
-
----
 
 ## Hobbies
 
